@@ -1,0 +1,45 @@
+*
+{
+	margin: 0;
+	font-size: 19px;
+}
+.container
+{
+	width: 100%;
+	height: 1000px;
+	border: 1px solid red;
+}
+.nav
+{
+	height: 70px;
+	border: 1px solid red;
+	position: relative;
+	background-color: black;
+}
+.nav span
+{
+	padding:30px;
+	margin-top: 20px;
+	background-color: red; 
+}
+.nav span:hover
+{
+	background-color: blue;
+}
+.nav span a
+{
+	color: white;
+	text-decoration:none; 
+	padding: 30px;
+	margin-top: 20px;
+	line-height: 60px;
+}
+.box
+{
+	width: 20%;
+	height: 300px;
+	background-color: yellow;
+	margin-top: 100px;
+	box-shadow: 10px 10px 20px 10px gray;
+}
+

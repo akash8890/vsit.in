@@ -1,0 +1,427 @@
+*
+{
+	margin: 0px;
+}
+/*########################################### container start ##########################################*/
+.container
+{
+	width: 100%;
+	height: 6100px;
+}
+.bigheader
+{
+	width: 100%;
+	height: 700px;
+	background: url(bg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+/*############################################### nev start ################################################*/
+.nev
+{
+	width: 100%;
+	height: 90px;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.nev.active{ background-color:rgb(0,187,255) 	; }
+.nev1
+{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+.nev1 img
+{
+	margin:20px 0px 20px 120px;
+	width: 35%;
+	height: 60px;
+}
+.nev2
+{
+	width: 70%;
+	height: 65px;
+	float: right;
+	word-spacing: 0px;
+	padding-top:35px; 
+
+}
+.nev2 a
+{
+	font-size: 17px;
+	color: white;
+	padding: 20px;
+	text-decoration: none;
+}
+a:hover
+{
+	background: rgb(0 196 255);
+}
+.nevbottom
+{
+	width:100%;
+	height: 700px;
+	border: 0.1px solid white;
+}
+.nevbottom p
+{
+	color: rgb(0,187,255);
+	font-size: 60px;
+	margin-top: 280px ;
+	text-align: center;
+}
+.nevbottom h1
+{
+	color: white;
+	text-align: center;
+	font-size: 40px;
+}
+.nevbottom h2
+{
+	color: white;
+	text-align: center;
+	font-size: 27px;
+}
+/*######################################### nev end ################################################*/
+/*######################################### logo s ################################################*/
+.logo 
+{
+	width: 100%;
+	height: 1160px;
+}
+.logo h1
+{
+	font-size: 35px;
+	 margin-top:90px;
+    text-align: center;
+}
+.logo hr
+{
+	margin: auto;
+	width: 8%;
+	margin-top: 10px;
+}
+.logotop
+{
+	width: 50%;
+	height: 30px;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.logotop a
+{
+	margin: 0 20px 0 20px;
+	color: #666160;
+}
+.logo img
+{
+	width: 355px;
+}
+/*######################################### logo e ################################################*/
+/*########################################## VSITian s ##############################################*/
+.VSITian
+{
+	width: 100%;
+	height: 570px;
+	margin-top: 50px;
+}
+.VSITian img
+{
+	width: 100%;
+	height: 570px;
+}
+/*########################################## VSITian e ##############################################*/
+/*########################################### DEMOS S ############################################*/
+.demos
+{
+	width: 100%;
+	height:700px; 
+}
+.demos h1
+{
+    font-size: 35px;
+    margin-top:100px;
+    text-align: center;
+}
+.demos hr
+{
+	margin: auto;
+	width: 8%;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.demos p
+{
+	font-size: 19px;
+	text-align: center;
+	color: #666160;
+}
+.demos img
+{
+	width: 100%;
+	margin-top: 30px;
+}
+/*########################################### DEMOS E ############################################*/
+/*########################################### links s ##############################################*/
+.links
+{
+	width: 100%;
+	height: 550px;
+	margin-bottom: 100px;
+}
+.comments
+{
+	width: 35%;
+	height: 550px;
+	float: left;
+	margin-left:230px;
+}
+.links h2
+{
+	text-align: center;
+}
+.comments h6
+{
+	color: #8A8483;
+	text-align: center;
+	margin-top: 30px;
+	font-size: 16px;
+}
+.MFlogo
+{
+	width: 35%;
+	height: 420px;
+	float: left;
+}
+.MFC
+{
+	width: 64%;
+	height: 420px;
+	float: right;
+}
+.MFC p
+{
+	font-size: 19px;
+	color: #666160;
+	text-align: justify;
+	margin-top: 40px;
+	line-height: 25px;
+}
+.MFC h6
+{
+	text-align: right;
+	color: #8A8483;
+}
+.FBlink
+{
+	width: 30%;
+	height: 550px;
+	float: right;
+	margin-right: 200px;
+}
+.FBlink iframe
+{
+	margin-left: 55px;
+}
+/*########################################### links e ##############################################*/
+/*########################################### free demo s ##########################################*/
+.freedemo
+{
+	width: 100%;
+	height: 320px;
+	margin-bottom: 100px;
+}
+.freedemo img
+{
+	width: 100%;
+}
+/*########################################### free demo s ##########################################*/
+/*########################################### contact us s ###################################################*/
+.contact
+{
+	width: 100%;
+	height: 1060px;
+}
+.contact h1
+{
+	text-align: center;
+	font-size: 35px;
+}
+.contact hr
+{
+	width: 8%;
+	margin: auto;
+	margin-top: 10px;
+}
+.form
+{
+	width: 50%;
+	height: 970px;
+	margin-left: 10%;
+	margin-top: 30px;
+	float: left;
+}
+.form input
+{
+	width: 94%;
+	height: 15px;
+	font-size: 19px;
+	padding: 20px;
+	margin-top: 20px;
+}
+.form textarea
+{
+	width: 94%;
+	height: 200px;
+	font-size: 19px;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.captcha
+{
+	width: 100%;
+	height: 250px;
+}
+.captcha p
+{
+	font-size: 18px;
+	color: #8A8483;
+}
+.captcha h3
+{
+	color:#8A8483;
+	margin-left: 20%; 
+}
+.captcha img
+{
+	width: 15%;
+	float: right;
+	margin-right: 60%;
+}
+.captcha input
+{
+	width: 20%;
+	height: 10px;
+	margin-left: 20%;
+}
+.sandmsg
+{
+	width: 100%;
+	height: 100px;
+}
+.sandmsg input
+{
+	float: right;
+	width: 25%;
+	height: 70px;
+}
+.address
+{
+	width: 20%;
+	float: right;
+	height: 970px;
+	margin-top: 30px;
+	margin-right: 18%;
+}
+.address p
+{
+	margin-top: 30px;
+	font-size: 19px;
+}
+/*########################################### contact us e ###################################################*/
+/*########################################### futer s #########################################################*/
+.futer
+{
+	width: 100%;
+	height: 600px;
+	background-color: black;
+	color: white;
+}
+.futer h1
+{
+	color: white;
+	margin-bottom: 20px;
+}
+.futer li
+{
+	font-size: 19px;
+	margin-bottom: 10px;
+}
+.futer hr
+{
+	width: 60%;
+	margin-left: 0%;
+	margin-bottom: 10px;
+}
+.box3
+{
+	width: 20%;
+	height: 530px;
+	float: left;
+	margin-left: 10%;
+	margin-top: 70px;
+}
+.box3 a
+{
+	color:rgb(0 196 255);
+}
+.last1
+{
+	width: 100%;
+	height: 150px;
+	
+}
+.last1 img
+{
+	width: 50%;
+	margin: 0 25% 0 25%;
+}
+.last1 h1
+{
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	margin-top: 30px;
+}
+.last1 hr
+{
+	width: 80%;
+	margin: auto;
+}
+.last2
+{
+	width: 60%;
+	height: 100px;
+	margin: auto;
+	
+}
+.last2 img
+{
+	width: 23%;
+}
+.last3
+{
+	width: 100%;
+	height: 100px;
+	margin-top: 80px;
+	font-size: 22px;
+	text-align: center;
+}
+/*########################################### futer e #########################################################*/
+.wp
+{
+	width: 20%;
+	height: 150px;
+	position: fixed;
+	right: 0;
+}
+.wp img
+{
+	width: 250px;
+	margin-left: 40px;
+}
+/*########################################### container end ##########################################*/
+
